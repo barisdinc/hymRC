@@ -15,33 +15,34 @@ Temel olarak aklimizdakiler asagidaki gibidir;
 8. Sistem icinde gercek zaman saati bulunacaktir (opsiyonel)
 
 # Role KOntrol Ozellikleri
-. Squelch/Sinyal girisi
-. Otomatik enterferans engelleme
-. ... 
+1. Squelch/Sinyal girisi
+2. Otomatik enterferans engelleme
+3. ... 
 
 # Uzaktan Kumanda Ozellikleri
-1 DTMF ile uzaktan kumanda ozelligi olacaktir
-2 Role acma/kapatma
-3 Ton acma/kapatma
-4 Morse tanitim acma/kapatma
-5 belirlenen sure boyunca kapali kalma
-6 Otomatik enterferans engelleme acma/kapama
-7 AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
+1. DTMF ile uzaktan kumanda ozelligi olacaktir
+2. Role acma/kapatma
+3. Ton acma/kapatma
+4. Morse tanitim acma/kapatma
+5. belirlenen sure boyunca kapali kalma
+6. Otomatik enterferans engelleme acma/kapama
+7. AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
 
 # Tanitim Bilgisi
-- Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
--- Morse olarak istasyon tanitimi basacaktir
--- Morse tanitim icinde asagidaki bilgiler olacaktir
---- Ton bilgisi
---- Lokasyon bilgisi (grid   square)
---- Cikis Gucu
+1. Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
+..1. Morse olarak istasyon tanitimi basacaktir
+..2. Morse tanitim icinde asagidaki bilgiler olacaktir
+..3. Ton bilgisi
+..4. Lokasyon bilgisi (grid   square)
+..5. Cikis Gucu
+..6. Ortam sicakligi
+..7. Aku voltajlari
+..8. Tarih ve saat (gercek zamani opsiyonu durumunda)
+
 -- Uzaktan kumanda sifre kontrollu olacaktir
 -- Sifre uzaktan degistirilebilecektir
 -- Sifre tanimli bir sifre kumesinden (Orn: 10 degisik sifre) sirayla degisecektir, aktif sifre no sorgulanabilecektir
 -- Beacon sinyali AX25 olarak da gonderilecektir
 -- AX25 beacon sinyali icinde rolenin tum ayarlarinin aktif durumu bulunabilecektir
--- Ortam sicakligi
--- Aku voltajlari
--- Tarih ve saat (gercek zamani opsiyonu durumunda)
 
 **NOT:** Liste ilgili goruslerinizi ve eklenmesini istediginiz ozellikleri ISSUE bolumunden veya email ile bize bildiriniz. (barisdinc###gmail.com) 
