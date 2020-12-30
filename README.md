@@ -22,24 +22,27 @@ Aklimizdaki ozellikler asagidaki gibidir;
   * iki cihazdan yapılan VHF Role Normal aktivtesini sürdürürken Kullanıcı Mandalı attığında Role göndermede iken aynı zamanda UHF link cihazı da göndermeye geçmelidir. 
   * Kullanıcı Mandalı bıraktığında Role Kuruk süresi sonrasında kapanacak ancak Link ise hiçbir gecikme olmadan, yani kuyruk süresi olmadan anında kapanacak. Bunun amacı Link üzerinden gelen sinyal zaten bir rokleden gelmekte olup, üzerinde kuyruk süresi vardır. 
   * ikinci bir kuyruk süresine ihtiyaç yoktur.
-  
 1. ...
 
 ### Role KOntrol Ozellikleri
 1. Squelch/Sinyal girisi
-2. Otomatik enterferans engelleme
-3. ... 
+1. Otomatik enterferans engelleme
+1. ... 
 
 ### Uzaktan Kumanda Ozellikleri
 1. DTMF ile uzaktan kumanda ozelligi olacaktir
-2. Role acma/kapatma
-3. Ton acma/kapatma
-4. Morse tanitim acma/kapatma
-5. belirlenen sure boyunca kapali kalma
-6. Otomatik enterferans engelleme acma/kapama
-7. Link acma/kapama
-8. AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
-9. ...
+1. Role acma/kapatma
+1. Ton acma/kapatma
+1. Morse tanitim acma/kapatma
+1. AX25 tanitim acma/kapatma
+1. belirlenen sure boyunca kapali kalma
+1. Otomatik enterferans engelleme acma/kapama
+1. Link acma/kapama
+1. Kuyruk suresi ayari (uzun/orta/kisa)
+1. Fan/Role acma/kapatma
+1. AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
+1. SSTV Goruntusu iste (opsiyonel)
+1. ...
 
 ### Tanitim Bilgisi
 1. Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
@@ -53,12 +56,12 @@ Aklimizdaki ozellikler asagidaki gibidir;
   * Tarih ve saat (gercek zamani opsiyonu durumunda
   * ...
   
-2. Uzaktan kumanda sifre kontrollu olacaktir
+1. Uzaktan kumanda sifre kontrollu olacaktir
   * Sifre uzaktan degistirilebilecektir
   * Sifre tanimli bir sifre kumesinden (Orn: 10 degisik sifre) sirayla degisecektir, aktif sifre no sorgulanabilecektir
   * ...
   
-3. Beacon sinyali AX25 olarak da gonderilecektir
+1. Beacon sinyali AX25 olarak da gonderilecektir
   * AX25 beacon sinyali icinde rolenin tum ayarlarinin aktif durumu bulunabilecektir
   * ...
 
