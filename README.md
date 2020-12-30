@@ -39,9 +39,9 @@ Temel olarak aklimizdakiler asagidaki gibidir;
   * Aku voltajlari
   * Tarih ve saat (gercek zamani opsiyonu durumunda)
 2. Uzaktan kumanda sifre kontrollu olacaktir
-  1. Sifre uzaktan degistirilebilecektir
-  2. Sifre tanimli bir sifre kumesinden (Orn: 10 degisik sifre) sirayla degisecektir, aktif sifre no sorgulanabilecektir
+   2.1. Sifre uzaktan degistirilebilecektir
+   2. Sifre tanimli bir sifre kumesinden (Orn: 10 degisik sifre) sirayla degisecektir, aktif sifre no sorgulanabilecektir
 3. Beacon sinyali AX25 olarak da gonderilecektir
-  1. AX25 beacon sinyali icinde rolenin tum ayarlarinin aktif durumu bulunabilecektir
+   1. AX25 beacon sinyali icinde rolenin tum ayarlarinin aktif durumu bulunabilecektir
 
 **NOT:** Liste ilgili goruslerinizi ve eklenmesini istediginiz ozellikleri ISSUE bolumunden veya email ile bize bildiriniz. (barisdinc###gmail.com) 
