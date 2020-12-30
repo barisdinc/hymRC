@@ -30,19 +30,18 @@ Temel olarak aklimizdakiler asagidaki gibidir;
 
 # Tanitim Bilgisi
 1. Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
-..1. Morse olarak istasyon tanitimi basacaktir
-..2. Morse tanitim icinde asagidaki bilgiler olacaktir
-..3. Ton bilgisi
-..4. Lokasyon bilgisi (grid   square)
-..5. Cikis Gucu
-..6. Ortam sicakligi
-..7. Aku voltajlari
-..8. Tarih ve saat (gercek zamani opsiyonu durumunda)
-
--- Uzaktan kumanda sifre kontrollu olacaktir
--- Sifre uzaktan degistirilebilecektir
--- Sifre tanimli bir sifre kumesinden (Orn: 10 degisik sifre) sirayla degisecektir, aktif sifre no sorgulanabilecektir
--- Beacon sinyali AX25 olarak da gonderilecektir
--- AX25 beacon sinyali icinde rolenin tum ayarlarinin aktif durumu bulunabilecektir
+1.1. Morse olarak istasyon tanitimi basacaktir
+1.2. Morse tanitim icinde asagidaki bilgiler olacaktir
+1.3. Ton bilgisi
+1.4. Lokasyon bilgisi (grid   square)
+1.5. Cikis Gucu
+1.6. Ortam sicakligi
+1.7. Aku voltajlari
+1.8. Tarih ve saat (gercek zamani opsiyonu durumunda)
+2. Uzaktan kumanda sifre kontrollu olacaktir
+2.1. Sifre uzaktan degistirilebilecektir
+2.2. Sifre tanimli bir sifre kumesinden (Orn: 10 degisik sifre) sirayla degisecektir, aktif sifre no sorgulanabilecektir
+3. Beacon sinyali AX25 olarak da gonderilecektir
+3.1. AX25 beacon sinyali icinde rolenin tum ayarlarinin aktif durumu bulunabilecektir
 
 **NOT:** Liste ilgili goruslerinizi ve eklenmesini istediginiz ozellikleri ISSUE bolumunden veya email ile bize bildiriniz. (barisdinc###gmail.com) 
