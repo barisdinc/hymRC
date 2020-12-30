@@ -30,14 +30,14 @@ Temel olarak aklimizdakiler asagidaki gibidir;
 
 # Tanitim Bilgisi
 1. Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
- 1. Morse olarak istasyon tanitimi basacaktir
- 2. Morse tanitim icinde asagidaki bilgiler olacaktir
- 3. Ton bilgisi
- 4. Lokasyon bilgisi (grid   square)
- 5. Cikis Gucu
- 6. Ortam sicakligi
- 7. Aku voltajlari
- 8. Tarih ve saat (gercek zamani opsiyonu durumunda)
+ * Morse olarak istasyon tanitimi basacaktir
+ * Morse tanitim icinde asagidaki bilgiler olacaktir
+ * Ton bilgisi
+ * Lokasyon bilgisi (grid   square)
+ * Cikis Gucu
+ * Ortam sicakligi
+ * Aku voltajlari
+ * Tarih ve saat (gercek zamani opsiyonu durumunda)
 2. Uzaktan kumanda sifre kontrollu olacaktir
  1. Sifre uzaktan degistirilebilecektir
  2. Sifre tanimli bir sifre kumesinden (Orn: 10 degisik sifre) sirayla degisecektir, aktif sifre no sorgulanabilecektir
