@@ -2,7 +2,7 @@ Bu projenin amaci role olarak kullanilmak uzere hazirlanan duzeneklerin kontrolu
 
 Bu proje *TA7OM Hudaverdi Gunes*'in tesviki ile baslatilmistir. Mevcutta yillar once yaptigimiz ve pek cok rolede kullanilan genelde PIC tabanli Role Kontrol kartlarinin daha modern hale getirilmesi hedeflenecektir.
 
-Temel olarak aklimizdakiler asagidaki gibidir;
+Aklimizdaki ozellikler asagidaki gibidir;
 
 # Temel Ozellikler
 1. Islemci unitesi olarak PIC yerine kolay erisilebilir ve programlanabilir ATMEL (Arduino) tercih edilecektir
@@ -13,6 +13,7 @@ Temel olarak aklimizdakiler asagidaki gibidir;
 6. Ayarlarin gosterimi icin LCD bulunacaktir (opsiyonel)
 7. Ayarlarin goruntulenmesi/degistirilmesi icin rotary encoder bulunacaktir (opsiyonel)
 8. Sistem icinde gercek zaman saati bulunacaktir (opsiyonel)
+9. ...
 
 # Role KOntrol Ozellikleri
 1. Squelch/Sinyal girisi
@@ -27,6 +28,7 @@ Temel olarak aklimizdakiler asagidaki gibidir;
 5. belirlenen sure boyunca kapali kalma
 6. Otomatik enterferans engelleme acma/kapama
 7. AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
+8. ...
 
 # Tanitim Bilgisi
 1. Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
@@ -37,11 +39,16 @@ Temel olarak aklimizdakiler asagidaki gibidir;
   * Cikis Gucu
   * Ortam sicakligi
   * Aku voltajlari
-  * Tarih ve saat (gercek zamani opsiyonu durumunda)
+  * Tarih ve saat (gercek zamani opsiyonu durumunda
+  * ...
+  
 2. Uzaktan kumanda sifre kontrollu olacaktir
-   2.1. Sifre uzaktan degistirilebilecektir
-   2. Sifre tanimli bir sifre kumesinden (Orn: 10 degisik sifre) sirayla degisecektir, aktif sifre no sorgulanabilecektir
+  * Sifre uzaktan degistirilebilecektir
+  * Sifre tanimli bir sifre kumesinden (Orn: 10 degisik sifre) sirayla degisecektir, aktif sifre no sorgulanabilecektir
+  * ...
+  
 3. Beacon sinyali AX25 olarak da gonderilecektir
-   1. AX25 beacon sinyali icinde rolenin tum ayarlarinin aktif durumu bulunabilecektir
+  * AX25 beacon sinyali icinde rolenin tum ayarlarinin aktif durumu bulunabilecektir
+  * ...
 
 **NOT:** Liste ilgili goruslerinizi ve eklenmesini istediginiz ozellikleri ISSUE bolumunden veya email ile bize bildiriniz. (barisdinc###gmail.com) 
