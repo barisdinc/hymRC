@@ -30,8 +30,8 @@ Temel olarak aklimizdakiler asagidaki gibidir;
 
 # Tanitim Bilgisi
 1. Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
-1.1. Morse olarak istasyon tanitimi basacaktir
-1.2. Morse tanitim icinde asagidaki bilgiler olacaktir
+..1. Morse olarak istasyon tanitimi basacaktir
+..2. Morse tanitim icinde asagidaki bilgiler olacaktir
 1.3. Ton bilgisi
 1.4. Lokasyon bilgisi (grid   square)
 1.5. Cikis Gucu
