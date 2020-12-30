@@ -6,14 +6,24 @@ Aklimizdaki ozellikler asagidaki gibidir;
 
 ### Temel Ozellikler
 1. Islemci unitesi olarak PIC yerine kolay erisilebilir ve programlanabilir ATMEL (Arduino) tercih edilecektir
-2. 12 Volt ile beslenecektir
-3. Role kontrol ozellikleri olacaktir
-4. Durum gosterimi icin LED bulunacaktir
-5. Dis arayuz baglantilari optokupler veya roleler uzerinden yapilacaktir
-6. Ayarlarin gosterimi icin LCD bulunacaktir (opsiyonel)
-7. Ayarlarin goruntulenmesi/degistirilmesi icin rotary encoder bulunacaktir (opsiyonel)
-8. Sistem icinde gercek zaman saati bulunacaktir (opsiyonel)
-9. ...
+1. 12 Volt ile beslenecektir
+1. Role kontrol ozellikleri olacaktir
+1. Durum gosterimi icin LED bulunacaktir
+1. Dis arayuz baglantilari optokupler veya roleler uzerinden yapilacaktir
+1. COR/CAS destegi olmalidir
+1. COR/CAS destegi +/- olabilmelidir
+1. Ayarlarin gosterimi icin LCD bulunacaktir (opsiyonel)
+1. Ayarlarin goruntulenmesi/degistirilmesi icin rotary encoder bulunacaktir (opsiyonel)
+1. Sistem icinde gercek zaman saati bulunacaktir (opsiyonel)
+1. Roleye simplex Link sistemi ilave edilebilmelidir
+  * Link COR girişi olmalı
+  * Ancak Link girişinden sinyal geldiğinde Role de Kuyruk süresi olmamalı
+  * İki VHF cihaz ile yapılan Role bir birine UHF üzerinden ücüncü cihaz ile Linkli olsun. 
+  * iki cihazdan yapılan VHF Role Normal aktivtesini sürdürürken Kullanıcı Mandalı attığında Role göndermede iken aynı zamanda UHF link cihazı da göndermeye geçmelidir. 
+  * Kullanıcı Mandalı bıraktığında Role Kuruk süresi sonrasında kapanacak ancak Link ise hiçbir gecikme olmadan, yani kuyruk süresi olmadan anında kapanacak. Bunun amacı Link üzerinden gelen sinyal zaten bir rokleden gelmekte olup, üzerinde kuyruk süresi vardır. 
+  * ikinci bir kuyruk süresine ihtiyaç yoktur.
+  
+1. ...
 
 ### Role KOntrol Ozellikleri
 1. Squelch/Sinyal girisi
@@ -27,8 +37,9 @@ Aklimizdaki ozellikler asagidaki gibidir;
 4. Morse tanitim acma/kapatma
 5. belirlenen sure boyunca kapali kalma
 6. Otomatik enterferans engelleme acma/kapama
-7. AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
-8. ...
+7. Link acma/kapama
+8. AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
+9. ...
 
 ### Tanitim Bilgisi
 1. Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
