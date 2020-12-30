@@ -1,33 +1,34 @@
 Bu projenin amaci role olarak kullanilmak uzere hazirlanan duzeneklerin kontrolunu saglamak ve bu sistemin uzaktan kumandasi ile tanitim bilgilerini olusturacak bir kart tasarimi yapmaktir.
 
-Bu proje TA7OM Hudaverdi Gunes'in tesviki ile baslatilmistir. Mevcutta yillar once yaptigimiz ve pek cok rolede kullanilan genelde PIC tabanli Role Kontrol kartlarinin daha modern hale getirilmesi hedeflenecektir.
+Bu proje *TA7OM Hudaverdi Gunes*'in tesviki ile baslatilmistir. Mevcutta yillar once yaptigimiz ve pek cok rolede kullanilan genelde PIC tabanli Role Kontrol kartlarinin daha modern hale getirilmesi hedeflenecektir.
 
 Temel olarak aklimizdakiler asagidaki gibidir;
 
-#Temel Ozellikler
-- Islemci unitesi olarak PIC yerine kolay erisilebilir ve programlanabilir ATMEL (Arduino) tercih edilecektir
-- 12 Volt ile beslenecektir
-- Role kontrol ozellikleri olacaktir
-- Durum gosterimi icin LED bulunacaktir
-- Ayarlarin gosterimi icin LCD bulunacaktir (opsiyonel)
-- Ayarlarin goruntulenmesi/degistirilmesi icin rotary encoder bulunacaktir (opsiyonel)
-- Sistem icinde gercek zaman saati bulunacaktir (opsiyonel)
+# Temel Ozellikler
+1. Islemci unitesi olarak PIC yerine kolay erisilebilir ve programlanabilir ATMEL (Arduino) tercih edilecektir
+2. 12 Volt ile beslenecektir
+3. Role kontrol ozellikleri olacaktir
+4. Durum gosterimi icin LED bulunacaktir
+5. Dis arayuz baglantilari optokupler veya roleler uzerinden yapilacaktir
+6. Ayarlarin gosterimi icin LCD bulunacaktir (opsiyonel)
+7. Ayarlarin goruntulenmesi/degistirilmesi icin rotary encoder bulunacaktir (opsiyonel)
+8. Sistem icinde gercek zaman saati bulunacaktir (opsiyonel)
 
-#Role KOntrol Ozellikleri
--- Squelch/Sinyal girisi
--- Otomatik enterferans engelleme
--- 
+# Role KOntrol Ozellikleri
+. Squelch/Sinyal girisi
+. Otomatik enterferans engelleme
+. ... 
 
-#Uzaktan Kumanda Ozellikleri
-- DTMF ile uzaktan kumanda ozelligi olacaktir
--- Role acma/kapatma
--- Ton acma/kapatma
--- Morse tanitim acma/kapatma
--- belirlenen sure boyunca kapali kalma
--- Otomatik enterferans engelleme acma/kapama
--- AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
+# Uzaktan Kumanda Ozellikleri
+1 DTMF ile uzaktan kumanda ozelligi olacaktir
+2 Role acma/kapatma
+3 Ton acma/kapatma
+4 Morse tanitim acma/kapatma
+5 belirlenen sure boyunca kapali kalma
+6 Otomatik enterferans engelleme acma/kapama
+7 AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
 
-#Tanitim Bilgisi
+# Tanitim Bilgisi
 - Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
 -- Morse olarak istasyon tanitimi basacaktir
 -- Morse tanitim icinde asagidaki bilgiler olacaktir
@@ -43,4 +44,4 @@ Temel olarak aklimizdakiler asagidaki gibidir;
 -- Aku voltajlari
 -- Tarih ve saat (gercek zamani opsiyonu durumunda)
 
-
+**NOT:** Liste ilgili goruslerinizi ve eklenmesini istediginiz ozellikleri ISSUE bolumunden veya email ile bize bildiriniz. (barisdinc###gmail.com) 
