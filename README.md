@@ -1,10 +1,10 @@
 Bu projenin amaci role olarak kullanilmak uzere hazirlanan duzeneklerin kontrolunu saglamak ve bu sistemin uzaktan kumandasi ile tanitim bilgilerini olusturacak bir kart tasarimi yapmaktir.
 
-Bu proje *TA7OM Hudaverdi Gunes*'in tesviki ile baslatilmistir. Mevcutta yillar once yaptigimiz ve pek cok rolede kullanilan genelde PIC tabanli Role Kontrol kartlarinin daha modern hale getirilmesi hedeflenecektir.
+Bu proje **_TA7OM Hudaverdi Gunes_**'in tesviki ile baslatilmistir. Mevcutta yillar once yaptigimiz ve pek cok rolede kullanilan genelde PIC tabanli Role Kontrol kartlarinin daha modern hale getirilmesi hedeflenecektir.
 
 Aklimizdaki ozellikler asagidaki gibidir;
 
-# Temel Ozellikler
+### Temel Ozellikler
 1. Islemci unitesi olarak PIC yerine kolay erisilebilir ve programlanabilir ATMEL (Arduino) tercih edilecektir
 2. 12 Volt ile beslenecektir
 3. Role kontrol ozellikleri olacaktir
@@ -15,12 +15,12 @@ Aklimizdaki ozellikler asagidaki gibidir;
 8. Sistem icinde gercek zaman saati bulunacaktir (opsiyonel)
 9. ...
 
-# Role KOntrol Ozellikleri
+### Role KOntrol Ozellikleri
 1. Squelch/Sinyal girisi
 2. Otomatik enterferans engelleme
 3. ... 
 
-# Uzaktan Kumanda Ozellikleri
+### Uzaktan Kumanda Ozellikleri
 1. DTMF ile uzaktan kumanda ozelligi olacaktir
 2. Role acma/kapatma
 3. Ton acma/kapatma
@@ -30,7 +30,7 @@ Aklimizdaki ozellikler asagidaki gibidir;
 7. AX25 ile uzaktan ayar yuklenmesi yapilabilecektir (opsiyonel)
 8. ...
 
-# Tanitim Bilgisi
+### Tanitim Bilgisi
 1. Beacon Tanitim ozelligi bulunacaktir (Orn: YM7KO 88.5 KN80WU 5W -10C 138V 121220 1919)
   * Morse olarak istasyon tanitimi basacaktir
   * Morse tanitim icinde asagidaki bilgiler olacaktir
