@@ -8,10 +8,11 @@ Role kontrolcusunu ilerde baska bir sistemler bhaberlestirme ihtiyaci dogrudugun
 * D1 Seri iletisim icin kullanilacak (TX)
 
 ### interrupt (kesme) gerektiren islemler icin
-* D2 Squelch input icin interrupt (ya da daha hizli bir is icin)
+* D2 KS8870 StD (interrupt)
+* D3 Squelch input icin interrupt (ya da daha hizli bir is icin)
 
 ###TOne Decoder baglantisi (4+1 Pin)
-* D3 KS8870 StD (interrupt)
+
 * D4 MT8870 Q1
 * D5 MT8870 Q2
 * D6 MT8870 Q3
