@@ -2,8 +2,11 @@
 #define MAIN_H_
 
 /* Function patamerters */
-#define txtail_ms 1000   // Kuyruk suresi (milisaniye)
+#define txtail_s 10       // Kuyruk suresi (saniye)
+#define squelch_in_pin 3 // Squelch Giris Pini D3
+#define ptt_pin 8       // TX tarafinin PTT baglantisi B0
 
+#define SQL_OPEN_LEVEL 0
 
 
 /* Pin Definition */
@@ -31,7 +34,7 @@ typedef enum
 typedef struct 
 {
     Repeater_state_t    state;
-    uint16_t            tx_tail_ms;
+    uint16_t            tx_tail_s;
     uint8_t             user_password[4];
     uint8_t             admin_password[4];
     char                call_sign[6];
