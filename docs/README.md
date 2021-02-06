@@ -8,20 +8,21 @@ Role kontrolcusunu ilerde baska bir sistemler bhaberlestirme ihtiyaci dogrudugun
 * D1 Seri iletisim icin kullanilacak (TX)
 
 ### interrupt (kesme) gerektiren islemler icin
-* D2 KS8820 Tone decoder tarafina interrupt
-* D3 Squelch input icin interrupt (ya da daha hizli bir is icin)
+* D2 Squelch input icin interrupt (ya da daha hizli bir is icin)
 
-### Direk chip kontrolu icin digital pin
-* D4 Chip Select 1
-* D5 Chip Select 2
+###TOne Decoder baglantisi (4+1 Pin)
+* D3 KS8870 StD (interrupt)
+* D4 MT8870 Q1
+* D5 MT8870 Q2
+* D6 MT8870 Q3
+* D7 MT8870 Q4
 
 ### Mors ve data uretme
-* D6 PWM cikisi olarak kullanialcak
+* ???? PWM cikisi olarak kullanialcak
 
 ### Acma kapama isleri
-* D7 Role veya Digital  KOntrol 1
-* D8 Role veya Digital  KOntrol 2
-* D9 Role veya Digital  KOntrol 3
+* D8 Role veya Digital  KOntrol 1
+* D9 Role veya Digital  KOntrol 2
 
 ### Harici veriyolu (sensorler vb icin SPI)
 * D10 SPI ihtiyaci icin kullanialcak (SS)
