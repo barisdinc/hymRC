@@ -51,6 +51,15 @@ Onemli Not:
 * Rolenin AX25 alma islemi yapabilmesi icin analog portlardan birinin bu ise ayrilmasi gerekebilir
 
 
-### Initial Test Setup
-<IMG SRC=https://github.com/barisdinc/hymRC/blob/main/docs/Initial_test_setup.jpeg>
+### Test Devresi
+## MT3170 / KT8870 Bacak Baglantilari
+Piyasada en kolay bulunan versiyonu 18 bacakli hali olup eger benim gibi kazara 20 bacakli versiyonunu kullaniyorsaniz internette cok kolay bulunamayan bacak baglanti detaylari asagidaki gibidir;
+
+<IMG SRC=https://github.com/barisdinc/hymRC/blob/main/docs/MT3170_pinout_variants.png>
+  
+Ilk ornek uygulamamda asagidaki gibi bir devreyi kucuk bir protoboard uzerine kurup calismaya basladim;
+<IMG SRC=https://github.com/barisdinc/hymRC/blob/main/docs/MT3170_application.png>
+
+Kurulu hali gorunumu
+<IMG WIDTH=50% HEIGHT=50% SRC=https://github.com/barisdinc/hymRC/blob/main/docs/Initial_test_setup.jpeg>
   
