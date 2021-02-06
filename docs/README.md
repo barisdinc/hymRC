@@ -49,3 +49,8 @@ Onemli Not:
 -----------
 * Rolenin mors ciktisina ek olarak AX25 paket radyo verisi olusturmak icin en az 4 pin ayristirilmasi gerekebilir ya da harici bir DAC chip kullanilabilir
 * Rolenin AX25 alma islemi yapabilmesi icin analog portlardan birinin bu ise ayrilmasi gerekebilir
+
+
+### Initial Test Setup
+<IMG SRC=https://github.com/barisdinc/hymRC/blob/main/docs/Initial_test_setup.jpeg>
+  
