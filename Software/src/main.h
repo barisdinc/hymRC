@@ -6,18 +6,19 @@
 #define txtimemout_timer_ms 12000  // TOT Timeout Timer 120 saniye (2 dakika)
 #define command_timeout_ms 10000 // Toplam komut gonderme suresi (milisaniye)
 #define dtmf_timeout_ms 3000     // DTMF kodlari arasindaki maksimum sure (milisaniye)
-#define squelch_in_pin 3 // Squelch Giris Pini D3
-#define ptt_pin 8       // TX tarafinin PTT baglantisi B0
 
 #define SQL_OPEN_LEVEL 0
 
 
 /* Pin Definition */
-#define dtmf_pinSTD 2
-#define dtmf_pinQ1 4
-#define dtmf_pinQ2 5
-#define dtmf_pinQ3 6
-#define dtmf_pinQ4 7
+#define dtmf_pinSTD    2
+#define squelch_in_pin 3 // Squelch Giris Pini D3
+#define dtmf_pinQ1     4
+#define dtmf_pinQ2     5
+#define dtmf_pinQ3     6
+#define dtmf_pinQ4     7
+#define ptt_pin        8 // TX tarafinin PTT baglantisi B0
+#define digital_out_1  9 // FAN Kontrolu vb.
 
 /* Type Definitions */
 typedef enum
@@ -61,9 +62,10 @@ typedef struct
 {
     Repeater_state_t    state;
     uint16_t            tx_tail_s;
-    uint8_t             user_password[4];
-    uint8_t             admin_password[4];
+    uint16_t             user_password;
+    uint16_t             admin_password;
     char                call_sign[6];
+    uint8_t             inhibit_tx;
     Beaconmode_t        beaconmode;
 
 } Repeater_configutarion_t;
@@ -76,8 +78,12 @@ typedef struct
 } Beacon_meassage_t;
 
 
-
-
+void dtmf_interrupt();
+void squelch_interrupt();
+void init_configuration(Repeater_configutarion_t* config);
+bool check_password();
+void exec_command();
+void change_ptt_state(bool state);
 
 
 #endif /* MAIN_H_ */
