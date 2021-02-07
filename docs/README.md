@@ -22,8 +22,8 @@ Role kontrolcusunu ilerde baska bir sistemler bhaberlestirme ihtiyaci dogrudugun
 * ???? PWM cikisi olarak kullanialcak
 
 ### Acma kapama isleri
-* D8 Role veya Digital  KOntrol 1
-* D9 Role veya Digital  KOntrol 2
+* D8 PTT kontrol
+* D9 Role veya Digital  KOntrol 1
 
 ### Harici veriyolu (sensorler vb icin SPI)
 * D10 SPI ihtiyaci icin kullanialcak (SS)
