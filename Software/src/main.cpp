@@ -2,14 +2,34 @@
 #include <EEPROMex.h>
 #include "main.h"
 
+/*
+ DTMF Commands start with # and end with *
+ After the # command all codes should be send within command_timeout_s seconds
+ The maximum delay between digits can be maximum dtmf_timout_s seconds
+ Every presence of # restarts the command sequence
+
+ Command Structure is as follows (PPPP is required user/admin password)
+ #PPPPCC*        Execute CC command 
+ #PPPPSSVV*      Set SS variable value to VV 
+
+ #PPPP71pppp*    Set user password to ppp
+ #PPPP72pppp*    Set admin password to ppp
+*/
+
+
 volatile int interrupts;
 
-uint8_t dtmf;
 uint8_t dtmf_cnt;
+char dtmf_command[20];
 
 Repeater_configutarion_t repeater_configuration;
 
-
+unsigned long timer_stop_tx;  
+unsigned long timer_command_timeout;
+unsigned long timer_dtmf_timeout;
+ 
+bool execute_cmd = false;
+bool tx_state = false;
 
 
 void dtmf_interrupt();
@@ -22,11 +42,11 @@ void setup() {
 
     init_configuration(&repeater_configuration);
 
-    TCCR1A = 0; 
-    TCCR1B = 0;
-    TCNT1 = 15624; // 1Hz = 16.000.000 / (1024 * 1) - 1
-    TCCR1B |= (1 << CS12); //256 prescaler
-    TIMSK1 |= (1 << TOIE1); //Enable Timer Overflow Interrupt
+    //TCCR1A = 0; 
+    //TCCR1B = 0;
+    //TCNT1 = 15624; // 1Hz = 16.000.000 / (1024 * 1) - 1
+    //TCCR1B |= (1 << CS12); //256 prescaler
+    //TIMSK1 |= (1 << TOIE1); //Enable Timer Overflow Interrupt
 
     attachInterrupt(0, dtmf_interrupt, FALLING); //Interrupt0 is Pin D2, FAILING edge shows dtmf read is done
     attachInterrupt(1, squelch_interrupt, CHANGE); //Interrupt1 is Pin D3, CHANGE triggers state change
@@ -41,8 +61,6 @@ void setup() {
     pinMode(dtmf_pinQ4, INPUT);
 
     
-
-
     Serial.begin(9600);
     Serial.println("hymRC Repeater Contoller (TA7W/OH2UDS-2021)");
     interrupts();
@@ -51,7 +69,25 @@ void setup() {
 
 void loop() {
 
+  unsigned long current_time = millis();
 
+  if (( current_time >= timer_stop_tx ) && ( tx_state == true )) 
+  {
+    Serial.print(millis());
+    Serial.print(" ");    
+    Serial.println("NOW OFF"); 
+    digitalWrite(ptt_pin, LOW);
+    tx_state = false;
+  }
+/*
+  if (execute_cmd == true)
+  {
+    if (check_password() == true)
+    {
+      Serial.println("Sfre dogru");
+    }
+  }
+*/
 
 }
 
@@ -70,7 +106,7 @@ void init_configuration(Repeater_configutarion_t* config)
   // TODO: read default values from EEPROM
   config->state = REPEATER_ON; 
   config->beaconmode = BEACON_NONE;
-  config->tx_tail_s = txtail_s;
+  config->tx_tail_s = txtail_ms;
   config->user_password[0] = 1;
   config->user_password[1] = 4;
   config->user_password[2] = 6;
@@ -92,9 +128,15 @@ void init_configuration(Repeater_configutarion_t* config)
  * D7 is MT3170/8870 Q4
  */
 void dtmf_interrupt() {
-  dtmf = (PIND & 0x00F0) >> 4;
+  uint8_t dtmf_digit = (PIND & 0x00F0) >> 4;
+  if ((dtmf_digit != 12) && (dtmf_cnt == 0)) return;
+  if ( dtmf_digit == 12) dtmf_cnt = 0; //# digit restarts the sequence
+  if ((dtmf_digit == 11) && (dtmf_cnt >= 7)) execute_cmd = true;
+  dtmf_command[dtmf_cnt] = dtmf_digit;
   dtmf_cnt++;
-  Serial.println(dtmf);
+  //Serial.println(millis());
+  timer_command_timeout = millis() + command_timeout_ms;
+  timer_dtmf_timeout = millis() + dtmf_timeout_ms;
 }
 
 
@@ -103,26 +145,34 @@ void dtmf_interrupt() {
  */
 void squelch_interrupt() {
   uint8_t sql_state = digitalRead(squelch_in_pin);
-  Serial.print("SQUELCH state changed to : ");
   Serial.println(sql_state);
-
   if (sql_state == SQL_OPEN_LEVEL)
   {
+    Serial.println("TX ON");
     digitalWrite(ptt_pin, HIGH);
+    timer_stop_tx = millis() + txtimemout_timer_ms;
+    Serial.print(millis());
+    Serial.print(" ");
+    Serial.println(timer_stop_tx);
+    tx_state = true;
   }
   else
   {
-    Serial.println("reseetting");
-    noInterrupts();
-    TCNT1 = 15624;   // preload timer
-    TIMSK1 |= (1 << TOIE1); //Enable Timer Overflow Interrupt
-    interrupts();
+    timer_stop_tx = millis() + txtail_ms;
+    Serial.print("TX TO OFF ");
+    Serial.print(millis());
+    Serial.print(" ");
+    Serial.println(timer_stop_tx);
+    //noInterrupts();
+    //TCNT1 = 15624;   // preload timer
+    //TIMSK1 |= (1 << TOIE1); //Enable Timer Overflow Interrupt
+    //interrupts();
   }
   
 }
 
 
-
+/*
 ISR(TIMER1_OVF_vect)        // interrupt service routine 
 {
 	//TCNT1 = 15624;   // preload timer
@@ -135,3 +185,5 @@ ISR(TIMER1_OVF_vect)        // interrupt service routine
     interrupts = 0;
   }
 }
+
+*/

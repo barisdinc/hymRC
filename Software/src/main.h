@@ -2,7 +2,10 @@
 #define MAIN_H_
 
 /* Function patamerters */
-#define txtail_s 10       // Kuyruk suresi (saniye)
+#define txtail_ms 1000       // Kuyruk suresi (milisaniye)
+#define txtimemout_timer_ms 12000  // TOT Timeout Timer 120 saniye (2 dakika)
+#define command_timeout_ms 10000 // Toplam komut gonderme suresi (milisaniye)
+#define dtmf_timeout_ms 3000     // DTMF kodlari arasindaki maksimum sure (milisaniye)
 #define squelch_in_pin 3 // Squelch Giris Pini D3
 #define ptt_pin 8       // TX tarafinin PTT baglantisi B0
 
@@ -30,6 +33,29 @@ typedef enum
     BEACON_AX25  = 0x02,
     BEACON_BOTH  = 0x03
 } Beaconmode_t;
+
+typedef enum
+{
+    COMMAND_REPEATER_ON         = 0x11,
+    COMMAND_REPEATER_OFF        = 0x12,
+    COMMAND_DIGITAL1_ON         = 0x21,
+    COMMAND_DIGITAL1_OFF        = 0x22,
+    COMMAND_DIGITAL2_ON         = 0x23,
+    COMMAND_DIGITAL2_OFF        = 0x24,
+    COMMAND_DIGITAL3_ON         = 0x25,
+    COMMAND_DIGITAL3_OFF        = 0x26,
+    COMMAND_BEACON_ON           = 0x31,
+    COMMAND_BEACON_OFF          = 0x32,
+    COMMAND_INITIALIZE          = 0x44,
+    COMMAND_REPORT_STATUS       = 0x50,
+    COMMAND_GET_READ_BATTERY    = 0x51,
+    COMMAND_GET_TEMPERATURE     = 0x52,
+    COMMAND_GET_ANALOG          = 0x53,
+    COMMAND_SET_TAIL_TIME       = 0x70,
+    COMMAND_SET_USER_PASS       = 0x71,
+    COMMAND_SET_ADMIN_PASS      = 0x72
+} Dtmf_commands_t;
+
 
 typedef struct 
 {
