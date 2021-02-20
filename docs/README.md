@@ -91,7 +91,7 @@ Kurulu hali gorunumu
  * INTA -> Pin 2 of MCU (INT0)
  * INTB -> Pin 3 of MCU (INT1)
 
-<IMG WIDTH=50% HEIGHT=50% SRC=https://github.com/barisdinc/hymRC/blob/main/docs/Extender_test_setup.jpeg>
+<IMG WIDTH=50% HEIGHT=50% SRC=https://github.com/barisdinc/hymRC/blob/main/docs/Extender_test_setup.png>
   
   
   
