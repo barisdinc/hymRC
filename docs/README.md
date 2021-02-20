@@ -62,5 +62,38 @@ Ilk ornek uygulamamda asagidaki gibi bir devreyi kucuk bir protoboard uzerine ku
 <IMG SRC=https://github.com/barisdinc/hymRC/blob/main/docs/MT3170_application.png>
 
 Kurulu hali gorunumu
+
 <IMG WIDTH=50% HEIGHT=50% SRC=https://github.com/barisdinc/hymRC/blob/main/docs/Initial_test_setup.jpeg>
+  
+## 16 Bit port genisletici kullanimi
+ 
+ <IMG SRC=https://github.com/barisdinc/hymRC/blob/main/docs/MCP23017_application.png>
+  
+ *A0
+ *A1
+ *A2
+ *A3
+ *A4
+ *A5
+ *A6
+ *A7
+ *A8
+  
+ *B0 MT8870 Q1       (input) Interrupt On Pin
+ *B1 MT8870 Q2       (input) Interrupt On Pin
+ *B2 MT8870 Q3       (input) Interrupt On Pin
+ *B3 MT8870 Q4       (input) Interrupt On Pin
+ *B4 MT8870 StD      (input) Interrupt On Change 
+ *B5 General Purpose (input) No Interrupt
+ *B6 General Purpose (input) No Interrupt
+ *B7 General Purpose (input) No Interrupt
+  
+ *INTA -> Pin 2 of MCU (INT0)
+ *INTB -> Pin 3 of MCU (INT1)
+
+<IMG WIDTH=50% HEIGHT=50% SRC=https://github.com/barisdinc/hymRC/blob/main/docs/Extender_test_setup.jpeg>
+  
+  
+  
+  
   
