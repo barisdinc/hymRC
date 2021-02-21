@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KT8870
+D DTMF receiver with 4 bit output, SOIC-18
+K DTMF Receiver
+F http://www.holtek.com/documents/10179/116711/9170v111.pdf
+$ENDCMP
+#
+#End Doc Library
