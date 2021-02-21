@@ -1,6 +1,9 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+
+#define MCP23017_ADDR 0x20
+
 /* Function patamerters */
 #define txtail_ms 1000       // Kuyruk suresi (milisaniye)
 #define txtimemout_timer_ms 12000  // TOT Timeout Timer 120 saniye (2 dakika)
@@ -84,6 +87,6 @@ void init_configuration(Repeater_configutarion_t* config);
 bool check_password();
 void exec_command();
 void change_ptt_state(bool state);
-
+void configure_mcp23017();
 
 #endif /* MAIN_H_ */
