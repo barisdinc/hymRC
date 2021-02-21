@@ -93,7 +93,8 @@ Kurulu hali gorunumu
 
 <IMG WIDTH=50% HEIGHT=50% SRC=https://github.com/barisdinc/hymRC/blob/main/docs/Extender_test_setup.png>
   
-  
+## Initial Version Of Schematic
+<IMG WIDTH=50% HEIGHT=50% SRC=https://github.com/barisdinc/hymRC/blob/main/Hardware/hymRC/hymRC.png>
   
   
   
