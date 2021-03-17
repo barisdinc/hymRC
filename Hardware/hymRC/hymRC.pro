@@ -1,4 +1,4 @@
-update=Sun 21 Feb 2021 04:19:57 AM EET
+update=Thu 18 Mar 2021 12:29:55 AM EET
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=hymRC_A3
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
