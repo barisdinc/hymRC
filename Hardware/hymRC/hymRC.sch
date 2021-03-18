@@ -183,8 +183,12 @@ U 1 1 6031E0A6
 P 14800 2000
 F 0 "U1" H 14800 2881 50  0000 C CNN
 F 1 "KT8870" H 14800 2790 50  0000 C CNN
-F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 14800 1350 50  0001 C CNN
-F 3 "http://www.holtek.com/documents/10179/116711/9170v111.pdf" H 14700 2700 50  0001 C CNN
+F 2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" H 14800 1350 50  0001 C CNN
+F 3 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=737902#ara" H 14700 2700 50  0001 C CNN
+F 4 "18 bacaklisi var" H 14800 2000 50  0001 C CNN "direnc.net"
+F 5 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=737902#ara" H 14800 2000 50  0001 C CNN "bluemavi"
+F 6 "https://www.digikey.com/en/products/detail/microchip-technology/MT8870DN1/4309768" H 14800 2000 50  0001 C CNN "digikey"
+F 7 "8 TL" H 14800 2000 50  0001 C CNN "fiyat"
 	1    14800 2000
 	1    0    0    -1  
 $EndComp
@@ -372,8 +376,12 @@ U 1 1 6031EF7A
 P 8650 2050
 F 0 "U2" H 8200 3000 50  0000 C CNN
 F 1 "MCP23017_SP" H 8950 3050 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 8850 1050 50  0001 L CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 8850 1050 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 8850 950 50  0001 L CNN
+F 4 "https://www.direnc.net/mcp23017e-so-soic-28-smd-io-expander-entegresi" H 8650 2050 50  0001 C CNN "DIRENC.NET"
+F 5 "-" H 8650 2050 50  0001 C CNN "bluemavi"
+F 6 "https://www.digikey.com/en/products/detail/microchip-technology/MCP23017T-E-SO/964184" H 8650 2050 50  0001 C CNN "digikey"
+F 7 "10TL" H 8650 2050 50  0001 C CNN "fiyat"
 	1    8650 2050
 	1    0    0    -1  
 $EndComp
@@ -2010,13 +2018,17 @@ DIGITAL INPUT OPTOCOUPLERS
 Text Label 11550 5600 0    50   ~ 0
 CONTROL_INPUT_0
 $Comp
-L Isolator:SFH617A-1X007T U5
+L hymRC_components:SFH615A-3 U5
 U 1 1 6186CE00
 P 13150 4250
 F 0 "U5" H 13150 4575 50  0000 C CNN
 F 1 "OptoCoupler" H 13150 4484 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 13150 3900 50  0001 C CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 13150 4200 50  0001 L CNN
+F 2 "Package_DIP:SMDIP-4_W7.62mm" H 13150 3900 50  0001 C CIN
+F 3 "https://pdf.direnc.net/upload/sfh615a-datasheet.pdf" H 13150 4200 50  0001 L CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=733903#ara" H 13150 4250 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/SFH615AY-X008T/4074789" H 13150 4250 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/sfh615a-3x-smd-optokuplor" H 13150 4250 50  0001 C CNN "direnc.net"
+F 7 "1TL" H 13150 4250 50  0001 C CNN "fiyat"
 	1    13150 4250
 	1    0    0    -1  
 $EndComp
@@ -2131,13 +2143,17 @@ F 3 "" H 12800 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Isolator:SFH617A-1X007T U3
+L hymRC_components:SFH615A-3 U3
 U 1 1 61C50D71
 P 11250 4250
 F 0 "U3" H 11250 4575 50  0000 C CNN
 F 1 "OptoCoupler" H 11250 4484 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 11250 3900 50  0001 C CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 11250 4200 50  0001 L CNN
+F 2 "Package_DIP:SMDIP-4_W7.62mm" H 11250 3900 50  0001 C CIN
+F 3 "https://pdf.direnc.net/upload/sfh615a-datasheet.pdf" H 11250 4200 50  0001 L CNN
+F 4 "https://www.direnc.net/sfh615a-3x-smd-optokuplor" H 11250 4250 50  0001 C CNN "direnc.net"
+F 5 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=733903#ara" H 11250 4250 50  0001 C CNN "bluemavi"
+F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/SFH615AY-X008T/4074789" H 11250 4250 50  0001 C CNN "digikey"
+F 7 "1TL" H 11250 4250 50  0001 C CNN "fiyat"
 	1    11250 4250
 	1    0    0    -1  
 $EndComp
@@ -2256,13 +2272,17 @@ POSITIVE\nR71 270\nR72 DNP\nR73 DNP\nR74 0
 Text Notes 11750 5150 0    50   ~ 0
 NEGATIVE\nR71 DNP\nR72 0\nR73 270\nR74 0DNP
 $Comp
-L Isolator:SFH617A-1X007T U4
+L hymRC_components:SFH615A-3 U4
 U 1 1 61CD1F41
 P 11250 5700
 F 0 "U4" H 11250 6025 50  0000 C CNN
 F 1 "OptoCoupler" H 11250 5934 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 11250 5350 50  0001 C CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 11250 5650 50  0001 L CNN
+F 2 "Package_DIP:SMDIP-4_W7.62mm" H 11250 5350 50  0001 C CIN
+F 3 "https://pdf.direnc.net/upload/sfh615a-datasheet.pdf" H 11250 5650 50  0001 L CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=733903#ara" H 11250 5700 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/SFH615AY-X008T/4074789" H 11250 5700 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/sfh615a-3x-smd-optokuplor" H 11250 5700 50  0001 C CNN "direnc.net"
+F 7 "1TL" H 11250 5700 50  0001 C CNN "fiyat"
 	1    11250 5700
 	1    0    0    -1  
 $EndComp
@@ -2377,13 +2397,17 @@ Digital_IN1
 Text Label 13400 5800 0    50   ~ 0
 CONTROL_INPUT_1
 $Comp
-L Isolator:SFH617A-1X007T U11
+L hymRC_components:SFH615A-3 U11
 U 1 1 61D1BC7A
 P 13100 5900
 F 0 "U11" H 13100 6225 50  0000 C CNN
 F 1 "OptoCoupler" H 13100 6134 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 13100 5550 50  0001 C CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 13100 5850 50  0001 L CNN
+F 2 "Package_DIP:SMDIP-4_W7.62mm" H 13100 5550 50  0001 C CIN
+F 3 "https://pdf.direnc.net/upload/sfh615a-datasheet.pdf" H 13100 5850 50  0001 L CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=733903#ara" H 13100 5900 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/SFH615AY-X008T/4074789" H 13100 5900 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/sfh615a-3x-smd-optokuplor" H 13100 5900 50  0001 C CNN "direnc.net"
+F 7 "1TL" H 13100 5900 50  0001 C CNN "fiyat"
 	1    13100 5900
 	1    0    0    -1  
 $EndComp
@@ -2498,13 +2522,17 @@ Digital_IN2
 Text Label 11850 6900 0    50   ~ 0
 CONTROL_INPUT_2
 $Comp
-L Isolator:SFH617A-1X007T U10
+L hymRC_components:SFH615A-3 U10
 U 1 1 61D93011
 P 11550 7000
 F 0 "U10" H 11550 7325 50  0000 C CNN
 F 1 "OptoCoupler" H 11550 7234 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 11550 6650 50  0001 C CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 11550 6950 50  0001 L CNN
+F 2 "Package_DIP:SMDIP-4_W7.62mm" H 11550 6650 50  0001 C CIN
+F 3 "https://pdf.direnc.net/upload/sfh615a-datasheet.pdf" H 11550 6950 50  0001 L CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=733903#ara" H 11550 7000 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/SFH615AY-X008T/4074789" H 11550 7000 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/sfh615a-3x-smd-optokuplor" H 11550 7000 50  0001 C CNN "direnc.net"
+F 7 "1TL" H 11550 7000 50  0001 C CNN "fiyat"
 	1    11550 7000
 	1    0    0    -1  
 $EndComp
@@ -3375,57 +3403,77 @@ F 3 "~" H 750 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U6
+L hymRC_components:TL084 U6
 U 5 1 611A9A22
 P 1250 5550
 F 0 "U6" H 1208 5596 50  0000 L CNN
 F 1 "TL084" H 1208 5505 50  0000 L CNN
-F 2 "" H 1200 5650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 1300 5750 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1200 5650 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 1300 5750 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 1250 5550 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 1250 5550 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 1250 5550 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 1250 5550 50  0001 C CNN "fiyat"
 	5    1250 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U6
+L hymRC_components:TL084 U6
 U 4 1 611A9A1C
 P 2450 6500
 F 0 "U6" H 2450 6867 50  0000 C CNN
 F 1 "TL084" H 2450 6776 50  0000 C CNN
-F 2 "" H 2400 6600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2500 6700 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2400 6600 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 2500 6700 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 2450 6500 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 2450 6500 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 2450 6500 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 2450 6500 50  0001 C CNN "fiyat"
 	4    2450 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U6
+L hymRC_components:TL084 U6
 U 3 1 611A9A16
 P 5700 6250
 F 0 "U6" H 5700 6617 50  0000 C CNN
 F 1 "TL084" H 5700 6526 50  0000 C CNN
-F 2 "" H 5650 6350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5750 6450 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5650 6350 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 5750 6450 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 5700 6250 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 5700 6250 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 5700 6250 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 5700 6250 50  0001 C CNN "fiyat"
 	3    5700 6250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U6
+L hymRC_components:TL084 U6
 U 2 1 611A9A10
 P 5700 5100
 F 0 "U6" H 5700 5467 50  0000 C CNN
 F 1 "TL084" H 5700 5376 50  0000 C CNN
-F 2 "" H 5650 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5750 5300 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5650 5200 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 5750 5300 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 5700 5100 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 5700 5100 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 5700 5100 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 5700 5100 50  0001 C CNN "fiyat"
 	2    5700 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U6
+L hymRC_components:TL084 U6
 U 1 1 611A9A0A
 P 2550 4750
 F 0 "U6" H 2550 5117 50  0000 C CNN
 F 1 "TL084" H 2550 5026 50  0000 C CNN
-F 2 "" H 2500 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2600 4950 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2500 4850 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 2600 4950 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 2550 4750 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 2550 4750 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 2550 4750 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 2550 4750 50  0001 C CNN "fiyat"
 	1    2550 4750
 	1    0    0    -1  
 $EndComp
@@ -4185,57 +4233,79 @@ F 3 "~" H 750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U7
+L hymRC_components:TL084 U7
 U 5 1 60701598
 P 1250 2200
 F 0 "U7" H 1208 2246 50  0000 L CNN
 F 1 "TL084" H 1208 2155 50  0000 L CNN
-F 2 "" H 1200 2300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 1300 2400 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1200 2300 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 1300 2400 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 1250 2200 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 1250 2200 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 1250 2200 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 1250 2200 50  0001 C CNN "fiyat"
 	5    1250 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U7
+L hymRC_components:TL084 U7
 U 4 1 60700441
 P 2450 3150
 F 0 "U7" H 2450 3517 50  0000 C CNN
 F 1 "TL084" H 2450 3426 50  0000 C CNN
-F 2 "" H 2400 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2500 3350 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2400 3250 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 2500 3350 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 2450 3150 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 2450 3150 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 2450 3150 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 2450 3150 50  0001 C CNN "fiyat"
 	4    2450 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U7
+L hymRC_components:TL084 U7
 U 3 1 606FF4B7
 P 5700 2900
 F 0 "U7" H 5700 3267 50  0000 C CNN
 F 1 "TL084" H 5700 3176 50  0000 C CNN
-F 2 "" H 5650 3000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5750 3100 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5650 3000 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 5750 3100 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 5700 2900 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 5700 2900 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 5700 2900 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 5700 2900 50  0001 C CNN "fiyat"
 	3    5700 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U7
+L hymRC_components:TL084 U7
 U 2 1 606FE651
 P 5700 1750
 F 0 "U7" H 5700 2117 50  0000 C CNN
 F 1 "TL084" H 5700 2026 50  0000 C CNN
-F 2 "" H 5650 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5750 1950 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5650 1850 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 5750 1950 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 5700 1750 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 5700 1750 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 5700 1750 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 5700 1750 50  0001 C CNN "fiyat"
 	2    5700 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U7
+L hymRC_components:TL084 U7
 U 1 1 606FD5F3
 P 2550 1400
 F 0 "U7" H 2550 1767 50  0000 C CNN
 F 1 "TL084" H 2550 1676 50  0000 C CNN
-F 2 "" H 2500 1500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2600 1600 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2500 1500 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 2600 1600 50  0001 C CNN
+F 4 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 2550 1400 50  0001 C CNN "Direnc.net"
+F 5 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 2550 1400 50  0001 C CNN "bluemavi"
+F 6 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 2550 1400 50  0001 C CNN "digikey"
+F 7 "2-3 TL" H 2550 1400 50  0001 C CNN "Fiyat (yaklasik)"
+F 8 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 2550 1400 50  0001 C CNN "direnc.net"
+F 9 "2TL" H 2550 1400 50  0001 C CNN "fiyat"
 	1    2550 1400
 	1    0    0    -1  
 $EndComp
@@ -4265,13 +4335,17 @@ LINK_PTT_OUT
 Wire Notes Line
 	6850 550  6850 7250
 $Comp
-L Isolator:SFH617A-1X007T U12
+L hymRC_components:SFH615A-3 U12
 U 1 1 629A035C
 P 1250 8050
 F 0 "U12" H 1250 8375 50  0000 C CNN
 F 1 "OptoCoupler" H 1250 8284 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 1250 7700 50  0001 C CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 1250 8000 50  0001 L CNN
+F 2 "Package_DIP:SMDIP-4_W7.62mm" H 1250 7700 50  0001 C CIN
+F 3 "https://pdf.direnc.net/upload/sfh615a-datasheet.pdf" H 1250 8000 50  0001 L CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=733903#ara" H 1250 8050 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/SFH615AY-X008T/4074789" H 1250 8050 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/sfh615a-3x-smd-optokuplor" H 1250 8050 50  0001 C CNN "direnc.net"
+F 7 "1TL" H 1250 8050 50  0001 C CNN "fiyat"
 	1    1250 8050
 	1    0    0    -1  
 $EndComp
@@ -4397,13 +4471,17 @@ Wire Wire Line
 Text Notes 2250 7750 0    50   ~ 0
 POSITIVE\nR90 270\nR91 DNP\nR92 DNP\nR93 0 
 $Comp
-L Isolator:SFH617A-1X007T U13
+L hymRC_components:SFH615A-3 U13
 U 1 1 62BF32AD
 P 3450 8050
 F 0 "U13" H 3450 8375 50  0000 C CNN
 F 1 "OptoCoupler" H 3450 8284 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 3450 7700 50  0001 C CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 3450 8000 50  0001 L CNN
+F 2 "Package_DIP:SMDIP-4_W7.62mm" H 3450 7700 50  0001 C CIN
+F 3 "https://pdf.direnc.net/upload/sfh615a-datasheet.pdf" H 3450 8000 50  0001 L CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=733903#ara" H 3450 8050 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/SFH615AY-X008T/4074789" H 3450 8050 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/sfh615a-3x-smd-optokuplor" H 3450 8050 50  0001 C CNN "direnc.net"
+F 7 "1TL" H 3450 8050 50  0001 C CNN "fiyat"
 	1    3450 8050
 	1    0    0    -1  
 $EndComp
