@@ -6,6 +6,54 @@ K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
+$CMP AZ850P1-x
+D American Zettler, Microminiature Polarised Dual Pole Relay Bistable
+K Miniature Polarised Relay Dual Pole Bistable
+F http://www.azettler.com/pdfs/az850.pdf
+$ENDCMP
+#
+$CMP BC817
+D 0.8A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/BC818-D.pdf
+$ENDCMP
+#
+$CMP BC818
+D 0.8A Ic, 25V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/BC818-D.pdf
+$ENDCMP
+#
+$CMP BC846
+D 0.1A Ic, 65V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf
+$ENDCMP
+#
+$CMP BC847
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC848
+D 0.1A Ic, 30V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC849
+D 0.1A Ic, 30V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC850
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
 $CMP KT8870
 D DTMF receiver with 4 bit output, SOIC-18
 K DTMF Receiver
@@ -72,6 +120,24 @@ K quad opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
 #
+$CMP MMBT3904
+D 0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
+$ENDCMP
+#
+$CMP MMBT5550L
+D 0.6A Ic, 140V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBT5551L
+D 0.6A Ic, 160V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
+$ENDCMP
+#
 $CMP OPA1604
 D Quad SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-14/TSSOP-14
 K quad opamp
@@ -100,6 +166,17 @@ $CMP OPA4376
 D Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
+$ENDCMP
+#
+$CMP Role-1
+D Standex Meder DIP reed relay, SPDT
+K Single Pole Reed Relay SPDT
+$ENDCMP
+#
+$CMP Role-2
+D American Zettler, Microminiature Polarised Dual Pole Relay
+K Miniature Polarised Relay Dual Pole
+F https://pdf.direnc.net/upload/tx2sa-2a-12vdc-1170ma-panasonic-role-8-pin-datasheet.pdf
 $ENDCMP
 #
 $CMP SFH615A-3

@@ -6,16 +6,16 @@ K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
+$CMP AZ850P1-x
+D American Zettler, Microminiature Polarised Dual Pole Relay Bistable
+K Miniature Polarised Relay Dual Pole Bistable
+F http://www.azettler.com/pdfs/az850.pdf
+$ENDCMP
+#
 $CMP KT8870
 D DTMF receiver with 4 bit output, SOIC-18
 K DTMF Receiver
 F http://www.holtek.com/documents/10179/116711/9170v111.pdf
-$ENDCMP
-#
-$CMP LM2902
-D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
-K quad opamp
-F https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf
 $ENDCMP
 #
 $CMP LM324
@@ -108,6 +108,17 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
+$CMP Role-1
+D Standex Meder DIP reed relay, SPDT
+K Single Pole Reed Relay SPDT
+$ENDCMP
+#
+$CMP Role-2
+D American Zettler, Microminiature Polarised Dual Pole Relay
+K Miniature Polarised Relay Dual Pole
+F https://pdf.direnc.net/upload/tx2sa-2a-12vdc-1170ma-panasonic-role-8-pin-datasheet.pdf
+$ENDCMP
+#
 $CMP SFH615A-3
 D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4
 K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
@@ -145,9 +156,9 @@ F http://www.ti.com/lit/ds/symlink/tl071.pdf
 $ENDCMP
 #
 $CMP TL084
-D Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
+D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp
-F http://www.ti.com/lit/ds/symlink/tl081.pdf
+F https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf
 $ENDCMP
 #
 $CMP TLC274
