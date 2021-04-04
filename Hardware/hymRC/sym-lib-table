@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name hymRC_components)(type Legacy)(uri ${KIPRJMOD}/hymRC_components.lib)(options "")(descr ""))
+  (lib (name hymRC-rescue)(type Legacy)(uri ${KIPRJMOD}/hymRC-rescue.lib)(options "")(descr ""))
 )

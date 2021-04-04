@@ -433,6 +433,41 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# hymRC-rescue_Role-1-hymRC_components
+#
+DEF hymRC-rescue_Role-1-hymRC_components K 0 20 Y Y 1 F N
+F0 "K" 450 150 50 H V L CNN
+F1 "hymRC-rescue_Role-1-hymRC_components" 450 50 50 H V L CNN
+F2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" 450 -50 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.direnc.net/12v-ciklet-role-hk41f-12v-6a" 300 800 50 H I C CNN "direnc.net"
+$FPLIST
+ Relay*StandexMeder*DIP*LowProfile*
+$ENDFPLIST
+DRAW
+S -400 200 400 -200 0 1 10 f
+S -325 75 -75 -75 0 1 10 N
+P 4 0 0 0 100 200 100 100 125 125 100 150 F
+P 4 0 0 0 300 200 300 100 275 125 300 150 N
+P 2 0 1 10 -300 -75 -100 75 N
+P 2 0 1 0 -200 -200 -200 -75 N
+P 2 0 1 0 -200 200 -200 75 N
+P 2 0 1 10 -75 0 -50 0 N
+P 2 0 1 10 -25 0 0 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 75 0 100 0 N
+P 2 0 1 10 125 0 150 0 N
+P 2 0 1 20 200 -100 125 150 N
+P 2 0 1 0 200 -100 200 -200 N
+X ~ 11 200 -300 100 U 50 50 1 1 P
+X ~ 12 100 300 100 D 50 50 1 1 P
+X ~ 14 300 300 100 D 50 50 1 1 P
+X ~ 8 200 -300 100 U 50 50 1 1 P N
+X ~ A1 -200 300 100 D 50 50 1 1 P
+X ~ A2 -200 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # hymRC_components_BC817
 #
 DEF hymRC_components_BC817 Q 0 0 Y N 1 F N
@@ -489,41 +524,6 @@ X INH 5 -500 0 100 R 50 50 1 1 I
 X PWDN 6 -500 -100 100 R 50 50 1 1 I
 X X1 8 -500 -400 100 R 50 50 1 1 I
 X X2 9 -500 -500 100 R 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
-# hymRC_components_Role-1
-#
-DEF hymRC_components_Role-1 K 0 20 Y Y 1 F N
-F0 "K" 450 150 50 H V L CNN
-F1 "hymRC_components_Role-1" 450 50 50 H V L CNN
-F2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" 450 -50 50 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "https://www.direnc.net/12v-ciklet-role-hk41f-12v-6a" 300 800 50 H I C CNN "direnc.net"
-$FPLIST
- Relay*StandexMeder*DIP*LowProfile*
-$ENDFPLIST
-DRAW
-S -400 200 400 -200 0 1 10 f
-S -325 75 -75 -75 0 1 10 N
-P 4 0 0 0 100 200 100 100 125 125 100 150 F
-P 4 0 0 0 300 200 300 100 275 125 300 150 N
-P 2 0 1 10 -300 -75 -100 75 N
-P 2 0 1 0 -200 -200 -200 -75 N
-P 2 0 1 0 -200 200 -200 75 N
-P 2 0 1 10 -75 0 -50 0 N
-P 2 0 1 10 -25 0 0 0 N
-P 2 0 1 10 25 0 50 0 N
-P 2 0 1 10 75 0 100 0 N
-P 2 0 1 10 125 0 150 0 N
-P 2 0 1 20 200 -100 125 150 N
-P 2 0 1 0 200 -100 200 -200 N
-X ~ 11 200 -300 100 U 50 50 1 1 P
-X ~ 12 100 300 100 D 50 50 1 1 P
-X ~ 14 300 300 100 D 50 50 1 1 P
-X ~ 8 200 -300 100 U 50 50 1 1 P N
-X ~ A1 -200 300 100 D 50 50 1 1 P
-X ~ A2 -200 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

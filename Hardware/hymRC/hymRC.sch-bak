@@ -1396,7 +1396,7 @@ F 3 "~" H 1100 9750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hymRC_components:Role-1 K1
+L hymRC-rescue:Role-1-hymRC_components K1
 U 1 1 60477DC9
 P 1650 9750
 F 0 "K1" H 2080 9796 50  0000 L CNN
@@ -1543,7 +1543,7 @@ F 3 "~" H 2850 9700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hymRC_components:Role-1 K2
+L hymRC-rescue:Role-1-hymRC_components K2
 U 1 1 604D7A49
 P 3400 9700
 F 0 "K2" H 3830 9746 50  0000 L CNN
@@ -1676,7 +1676,7 @@ F 3 "~" H 4550 9700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hymRC_components:Role-1 K3
+L hymRC-rescue:Role-1-hymRC_components K3
 U 1 1 6050AB0C
 P 5100 9700
 F 0 "K3" H 5530 9746 50  0000 L CNN
@@ -2685,7 +2685,7 @@ U 1 1 611A9B50
 P 1700 6400
 F 0 "R52" V 1800 6350 50  0000 L CNN
 F 1 "100K" V 1700 6300 50  0000 L CNN
-F 2 "" V 1630 6400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1630 6400 50  0001 C CNN
 F 3 "~" H 1700 6400 50  0001 C CNN
 	1    1700 6400
 	0    1    1    0   
@@ -2943,7 +2943,7 @@ U 1 1 611A9AC1
 P 5550 4600
 F 0 "R64" V 5650 4550 50  0000 L CNN
 F 1 "1M2" V 5550 4500 50  0000 L CNN
-F 2 "" V 5480 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5480 4600 50  0001 C CNN
 F 3 "~" H 5550 4600 50  0001 C CNN
 	1    5550 4600
 	0    -1   -1   0   
@@ -2964,12 +2964,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR060
 U 1 1 611A9AB4
-P 1150 5850
-F 0 "#PWR060" H 1150 5600 50  0001 C CNN
-F 1 "GND" H 1155 5677 50  0000 C CNN
-F 2 "" H 1150 5850 50  0001 C CNN
-F 3 "" H 1150 5850 50  0001 C CNN
-	1    1150 5850
+P 1150 5900
+F 0 "#PWR060" H 1150 5650 50  0001 C CNN
+F 1 "GND" H 1155 5727 50  0000 C CNN
+F 2 "" H 1150 5900 50  0001 C CNN
+F 3 "" H 1150 5900 50  0001 C CNN
+	1    1150 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3231,16 +3231,16 @@ $EndComp
 $Comp
 L hymRC_components:TL084 U6
 U 5 1 611A9A22
-P 1250 5550
-F 0 "U6" H 1208 5596 50  0000 L CNN
-F 1 "TL084" H 1208 5505 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1200 5650 50  0001 C CNN
-F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 1300 5750 50  0001 C CNN
-F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 1250 5550 50  0001 C CNN "bluemavi"
-F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 1250 5550 50  0001 C CNN "digikey"
-F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 1250 5550 50  0001 C CNN "direnc.net"
-F 7 "2TL" H 1250 5550 50  0001 C CNN "fiyat"
-	5    1250 5550
+P 1250 2200
+F 0 "U6" H 1208 2246 50  0000 L CNN
+F 1 "TL084" H 1208 2155 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1200 2300 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 1300 2400 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 1250 2200 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 1250 2200 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 1250 2200 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 1250 2200 50  0001 C CNN "fiyat"
+	5    1250 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3713,7 +3713,7 @@ F 3 "~" H 4450 1650 50  0001 C CNN
 	1    4450 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 1900 1    50   Input ~ 0
+Text GLabel 1150 1850 1    50   Input ~ 0
 Aku_12V
 Text Label 1650 1850 3    50   ~ 0
 VCC_2
@@ -3794,12 +3794,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR045
 U 1 1 6080E9C6
-P 1150 2500
-F 0 "#PWR045" H 1150 2250 50  0001 C CNN
-F 1 "GND" H 1155 2327 50  0000 C CNN
-F 2 "" H 1150 2500 50  0001 C CNN
-F 3 "" H 1150 2500 50  0001 C CNN
-	1    1150 2500
+P 1150 2550
+F 0 "#PWR045" H 1150 2300 50  0001 C CNN
+F 1 "GND" H 1155 2377 50  0000 C CNN
+F 2 "" H 1150 2550 50  0001 C CNN
+F 3 "" H 1150 2550 50  0001 C CNN
+	1    1150 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4061,16 +4061,16 @@ $EndComp
 $Comp
 L hymRC_components:TL084 U7
 U 5 1 60701598
-P 1250 2200
-F 0 "U7" H 1208 2246 50  0000 L CNN
-F 1 "TL084" H 1208 2155 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1200 2300 50  0001 C CNN
-F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 1300 2400 50  0001 C CNN
-F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 1250 2200 50  0001 C CNN "bluemavi"
-F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 1250 2200 50  0001 C CNN "digikey"
-F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 1250 2200 50  0001 C CNN "direnc.net"
-F 7 "2TL" H 1250 2200 50  0001 C CNN "fiyat"
-	5    1250 2200
+P 1250 5550
+F 0 "U7" H 1208 5596 50  0000 L CNN
+F 1 "TL084" H 1208 5505 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1200 5650 50  0001 C CNN
+F 3 "https://pdf.direnc.net/upload/tl081-tl082-tl084-datasheet.pdf" H 1300 5750 50  0001 C CNN
+F 4 "https://bluemavi.com/vitrin/tablo_new.asp?adet=1&kitap_id=758504#ara" H 1250 5550 50  0001 C CNN "bluemavi"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/TL084BCD/476131" H 1250 5550 50  0001 C CNN "digikey"
+F 6 "https://www.direnc.net/tl084-smd-jfet-input-operational-amplifiers" H 1250 5550 50  0001 C CNN "direnc.net"
+F 7 "2TL" H 1250 5550 50  0001 C CNN "fiyat"
+	5    1250 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4480,18 +4480,6 @@ F 3 "~" H 1550 2200 50  0001 C CNN
 	1    1550 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 2050 1000 2100
-Wire Wire Line
-	1000 2050 1550 2050
-Wire Wire Line
-	1550 2050 1550 2100
-Wire Wire Line
-	1000 2350 1000 2300
-Wire Wire Line
-	1550 2350 1550 2300
-Wire Wire Line
-	1000 2350 1550 2350
 $Comp
 L Device:C_Small C41
 U 1 1 6083C330
@@ -4514,18 +4502,6 @@ F 3 "~" H 1450 5550 50  0001 C CNN
 	1    1450 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 5400 1450 5450
-Wire Wire Line
-	1050 5400 1050 5450
-Wire Wire Line
-	1050 5400 1450 5400
-Wire Wire Line
-	1050 5700 1050 5650
-Wire Wire Line
-	1450 5700 1450 5650
-Wire Wire Line
-	1050 5700 1450 5700
 $Comp
 L Device:C_Small C45
 U 1 1 6095F140
@@ -4933,9 +4909,6 @@ Text Label 12100 950  1    50   ~ 0
 VIN
 Wire Wire Line
 	12800 4700 12800 4750
-Connection ~ 8650 7300
-Connection ~ 8800 7150
-Connection ~ 8500 7150
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 623E000D
@@ -4959,4 +4932,46 @@ F 3 "~" H 1150 5250 50  0001 C CNN
 	1    1150 5250
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1000 2100 1000 1900
+Wire Wire Line
+	1000 1900 1150 1900
+Wire Wire Line
+	1150 1900 1550 1900
+Wire Wire Line
+	1550 1900 1550 2100
+Connection ~ 1150 1900
+Wire Wire Line
+	1550 2300 1550 2500
+Wire Wire Line
+	1550 2500 1150 2500
+Wire Wire Line
+	1150 2500 1150 2550
+Connection ~ 1150 2500
+Wire Wire Line
+	1150 2500 1000 2500
+Wire Wire Line
+	1000 2500 1000 2300
+Wire Wire Line
+	1150 1850 1150 1900
+Wire Wire Line
+	1150 5250 1050 5250
+Wire Wire Line
+	1050 5250 1050 5450
+Connection ~ 1150 5250
+Wire Wire Line
+	1150 5850 1150 5900
+Wire Wire Line
+	1450 5650 1450 5850
+Wire Wire Line
+	1450 5850 1150 5850
+Connection ~ 1150 5850
+Wire Wire Line
+	1050 5650 1050 5850
+Wire Wire Line
+	1050 5850 1150 5850
+Wire Wire Line
+	1450 5250 1150 5250
+Wire Wire Line
+	1450 5250 1450 5450
 $EndSCHEMATC
