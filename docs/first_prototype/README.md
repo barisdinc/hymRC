@@ -10,3 +10,4 @@ this is first prototype 3D views of KiCAD files....
 #Angle View:
 <IMG SRC=https://github.com/barisdinc/hymRC/blob/main/docs/first_prototype/hymRC_angle1.jpeg>
 <IMG SRC=https://github.com/barisdinc/hymRC/blob/main/docs/first_prototype/hymRC_angle2.jpeg>
+<IMG SRC=https://github.com/barisdinc/hymRC/blob/main/docs/first_prototype/hymRC_angle3.jpeg>
