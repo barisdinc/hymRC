@@ -938,9 +938,9 @@ Wire Notes Line
 	6950 6400 9900 6400
 Text Notes 9400 8700 0    50   ~ 0
 REGULATORS
-Text Label 15700 6550 2    50   ~ 0
+Text Label 15700 6850 2    50   ~ 0
 RX_AUDIO
-Text Label 15700 6650 2    50   ~ 0
+Text Label 15700 6950 2    50   ~ 0
 GND
 Text Label 14800 6950 2    50   ~ 0
 GND
@@ -948,7 +948,7 @@ Text Label 14800 6850 2    50   ~ 0
 TX_AUDIO
 Text Label 14800 6650 2    50   ~ 0
 TX_PTT
-Text Label 15700 6850 2    50   ~ 0
+Text Label 15700 6550 2    50   ~ 0
 RX_SQL
 $Comp
 L Connector:Screw_Terminal_01x05 J5
@@ -1105,7 +1105,7 @@ Text Label 9350 2550 0    50   ~ 0
 CONTROL_OUTPUT_4
 Text Label 15700 6750 2    50   ~ 0
 LINK_AUDIO_OUT
-Text Label 15700 6950 2    50   ~ 0
+Text Label 15700 6650 2    50   ~ 0
 LINK_SQL
 Text Label 11700 2250 2    50   ~ 0
 LINK_SQUELCH
