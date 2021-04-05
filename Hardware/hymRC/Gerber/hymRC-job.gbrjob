@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.9-73d0e3b20d~88~ubuntu20.04.1"
     },
-    "CreationDate":  "2021-03-12T19:43:36+02:00"
+    "CreationDate":  "2021-04-05T22:07:47+03:00"
   },
   "GeneralSpecs":
   {
@@ -19,8 +19,8 @@
     },
     "Size":
     {
-      "X": 134.670,
-      "Y": 132.130
+      "X": 97.890,
+      "Y": 97.890
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -32,7 +32,9 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.250
+      "MinLineWidth":  0.250,
+      "TrackToRegion":  0.508,
+      "RegionToRegion":  0.508
     }
   ],
   "FilesAttributes":
