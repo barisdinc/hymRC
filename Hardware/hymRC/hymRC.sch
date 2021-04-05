@@ -378,41 +378,41 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 12200 1950 5
 $EndComp
 Text Label 11700 1550 2    50   ~ 0
 INTA
-Text GLabel 15500 5750 0    50   Input ~ 0
+Text GLabel 15600 5750 0    50   Input ~ 0
 Digital_IN2
-Text GLabel 15500 5650 0    50   Input ~ 0
+Text GLabel 15600 5850 0    50   Input ~ 0
 Digital_IN1
-Text GLabel 15500 5550 0    50   Input ~ 0
+Text GLabel 15600 5950 0    50   Input ~ 0
 Digital_IN0
 Text GLabel 15300 9000 0    50   Input ~ 0
 R3_NO2
-Text GLabel 15300 8900 0    50   Input ~ 0
-R3_NC2
 Text GLabel 15300 8800 0    50   Input ~ 0
+R3_NC2
+Text GLabel 15300 8900 0    50   Input ~ 0
 R3_COM2
 Text GLabel 15300 8700 0    50   Input ~ 0
 R3_NO1
-Text GLabel 15300 8600 0    50   Input ~ 0
-R3_NC1
 Text GLabel 15300 8500 0    50   Input ~ 0
+R3_NC1
+Text GLabel 15300 8600 0    50   Input ~ 0
 R3_COM1
-Text GLabel 15300 8350 0    50   Input ~ 0
-R2_NO
-Text GLabel 15300 8250 0    50   Input ~ 0
-R2_NC
 Text GLabel 15300 8150 0    50   Input ~ 0
+R2_NO
+Text GLabel 15300 8350 0    50   Input ~ 0
+R2_NC
+Text GLabel 15300 8250 0    50   Input ~ 0
 R2_COM
-Text GLabel 15300 8000 0    50   Input ~ 0
-R1_NO
-Text GLabel 15300 7900 0    50   Input ~ 0
-R1_NC
 Text GLabel 15300 7800 0    50   Input ~ 0
+R1_NO
+Text GLabel 15300 8000 0    50   Input ~ 0
+R1_NC
+Text GLabel 15300 7900 0    50   Input ~ 0
 R1_COM
-Text GLabel 15300 7650 0    50   Input ~ 0
-RO_NO
-Text GLabel 15300 7550 0    50   Input ~ 0
-R0_NC
 Text GLabel 15300 7450 0    50   Input ~ 0
+RO_NO
+Text GLabel 15300 7650 0    50   Input ~ 0
+R0_NC
+Text GLabel 15300 7550 0    50   Input ~ 0
 R0_COM
 Text Notes 14650 9850 0    50   ~ 0
 RELAY CONTROLLED TERMINALS
@@ -424,9 +424,9 @@ Wire Notes Line
 	16000 9900 14600 9900
 Wire Notes Line
 	16000 7350 16000 9900
-Text GLabel 15500 5450 0    50   Input ~ 0
+Text GLabel 15600 5550 0    50   Input ~ 0
 Analog_Sensor2
-Text GLabel 15500 5350 0    50   Input ~ 0
+Text GLabel 15600 5450 0    50   Input ~ 0
 Analog_Sensor1
 Wire Notes Line
 	16000 4900 16000 6350
@@ -437,34 +437,7 @@ Wire Notes Line
 Wire Notes Line
 	16000 6350 14650 6350
 Wire Wire Line
-	15600 5750 15500 5750
-Wire Wire Line
-	15600 5650 15500 5650
-Wire Wire Line
-	15600 5550 15500 5550
-Wire Wire Line
-	15600 5450 15500 5450
-Wire Wire Line
 	15600 5350 15500 5350
-Wire Wire Line
-	15500 5250 15500 5200
-Wire Wire Line
-	15600 5250 15500 5250
-Wire Wire Line
-	15500 6050 15500 6100
-Wire Wire Line
-	15600 6050 15500 6050
-$Comp
-L power:GND #PWR034
-U 1 1 60400CC3
-P 15500 6100
-F 0 "#PWR034" H 15500 5850 50  0001 C CNN
-F 1 "GND" H 15350 6050 50  0000 C CNN
-F 2 "" H 15500 6100 50  0001 C CNN
-F 3 "" H 15500 6100 50  0001 C CNN
-	1    15500 6100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x09_Female J3
 U 1 1 60400B87
@@ -969,11 +942,11 @@ Text Label 15700 6550 2    50   ~ 0
 RX_AUDIO
 Text Label 15700 6650 2    50   ~ 0
 GND
-Text Label 14800 6650 2    50   ~ 0
+Text Label 14800 6950 2    50   ~ 0
 GND
-Text Label 14800 6550 2    50   ~ 0
+Text Label 14800 6850 2    50   ~ 0
 TX_AUDIO
-Text Label 14800 6750 2    50   ~ 0
+Text Label 14800 6650 2    50   ~ 0
 TX_PTT
 Text Label 15700 6850 2    50   ~ 0
 RX_SQL
@@ -988,7 +961,7 @@ F 3 "~" H 15900 6750 50  0001 C CNN
 	1    15900 6750
 	1    0    0    -1  
 $EndComp
-Text Label 14800 6850 2    50   ~ 0
+Text Label 14800 6550 2    50   ~ 0
 TX_POWER
 Wire Notes Line
 	16000 6400 14350 6400
@@ -1193,15 +1166,15 @@ F 3 "~" H 15500 9350 50  0001 C CNN
 	1    15500 9350
 	1    0    0    -1  
 $EndComp
-Text GLabel 15300 9150 0    50   Input ~ 0
-R4_COM1
 Text GLabel 15300 9250 0    50   Input ~ 0
+R4_COM1
+Text GLabel 15300 9150 0    50   Input ~ 0
 R4_NC1
 Text GLabel 15300 9350 0    50   Input ~ 0
 R4_NO1
-Text GLabel 15300 9450 0    50   Input ~ 0
-R4_COM2
 Text GLabel 15300 9550 0    50   Input ~ 0
+R4_COM2
+Text GLabel 15300 9450 0    50   Input ~ 0
 R4_NC2
 Text GLabel 15300 9650 0    50   Input ~ 0
 R4_NO2
@@ -1900,7 +1873,7 @@ Text GLabel 10450 5700 0    50   Input ~ 0
 Digital_IN0
 Text Notes 11350 7650 0    50   ~ 0
 DIGITAL INPUT OPTOCOUPLERS
-Text Label 11550 5600 0    50   ~ 0
+Text Label 2650 6850 0    50   ~ 0
 CONTROL_INPUT_0
 $Comp
 L hymRC_components:SFH615A-3 U5
@@ -2248,7 +2221,7 @@ $Comp
 L hymRC_components:SFH615A-3 U11
 U 1 1 61D1BC7A
 P 13100 5900
-F 0 "U11" H 13100 6225 50  0000 C CNN
+F 0 "U11" H 13150 5950 50  0000 C CNN
 F 1 "OptoCoupler" H 13100 6134 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-4_W7.62mm" H 13100 5550 50  0001 C CIN
 F 3 "https://pdf.direnc.net/upload/sfh615a-datasheet.pdf" H 13100 5850 50  0001 L CNN
@@ -4120,9 +4093,9 @@ F 3 "~" H 15000 6750 50  0001 C CNN
 	1    15000 6750
 	1    0    0    -1  
 $EndComp
-Text Label 14800 6950 2    50   ~ 0
-LINK_AUDIO_IN
 Text Label 14800 7050 2    50   ~ 0
+LINK_AUDIO_IN
+Text Label 14800 6750 2    50   ~ 0
 LINK_PTT_OUT
 Wire Notes Line
 	6850 550  6850 7250
@@ -4693,18 +4666,12 @@ Text Label 15200 800  0    50   ~ 0
 5V
 Text Label 15500 3700 0    50   ~ 0
 5V
-Text Label 15500 5200 0    50   ~ 0
-5V
 Wire Wire Line
 	9850 1350 9850 1300
-Text GLabel 15500 5850 0    50   Input ~ 0
+Text GLabel 15500 5250 0    50   Input ~ 0
 UART_RX
-Text GLabel 15500 5950 0    50   Input ~ 0
+Text GLabel 15500 5350 0    50   Input ~ 0
 UART_TX
-Wire Wire Line
-	15600 5850 15500 5850
-Wire Wire Line
-	15600 5950 15500 5950
 Text Label 11700 1650 2    50   ~ 0
 SQUELCH
 Text Label 11550 4150 0    50   ~ 0
@@ -4974,4 +4941,51 @@ F 7 "2TL" H 1250 2200 50  0001 C CNN "fiyat"
 	5    1250 2200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J12
+U 1 1 6086AFB5
+P 7550 6600
+F 0 "J12" H 7630 6592 50  0000 L CNN
+F 1 "12V_AKU" H 7630 6501 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7550 6600 50  0001 C CNN
+F 3 "~" H 7550 6600 50  0001 C CNN
+	1    7550 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 6600 0    50   Input ~ 0
+Aku_12V
+$Comp
+L power:GND #PWR07
+U 1 1 608735DD
+P 7350 6700
+F 0 "#PWR07" H 7350 6450 50  0001 C CNN
+F 1 "GND" H 7355 6527 50  0000 C CNN
+F 2 "" H 7350 6700 50  0001 C CNN
+F 3 "" H 7350 6700 50  0001 C CNN
+	1    7350 6700
+	1    0    0    -1  
+$EndComp
+Text Label 11550 5600 0    50   ~ 0
+CONTROL_INPUT_0
+Wire Wire Line
+	15500 6050 15500 6100
+Wire Wire Line
+	15600 6050 15500 6050
+Wire Wire Line
+	15600 5250 15500 5250
+Text Label 15500 5650 2    50   ~ 0
+5V
+$Comp
+L power:GND #PWR034
+U 1 1 60400CC3
+P 15500 6100
+F 0 "#PWR034" H 15500 5850 50  0001 C CNN
+F 1 "GND" H 15350 6050 50  0000 C CNN
+F 2 "" H 15500 6100 50  0001 C CNN
+F 3 "" H 15500 6100 50  0001 C CNN
+	1    15500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15600 5650 15500 5650
 $EndSCHEMATC
