@@ -457,19 +457,19 @@ Wire Notes Line
 	14650 4850 14650 3400
 Wire Notes Line
 	16000 4850 14650 4850
-Text GLabel 15500 4450 0    50   Input ~ 0
+Text GLabel 15500 4250 0    50   Input ~ 0
 Digital_Sensor_CS3
 Text GLabel 15500 4350 0    50   Input ~ 0
 Digital_Sensor_CS2
-Text GLabel 15500 4250 0    50   Input ~ 0
+Text GLabel 15500 4450 0    50   Input ~ 0
 Digital_Sensor_CS1
 Text GLabel 15500 4150 0    50   Input ~ 0
 SPI_SCK
-Text GLabel 15500 4050 0    50   Input ~ 0
+Text GLabel 15500 3850 0    50   Input ~ 0
 SPI_MISO
 Text GLabel 15500 3950 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 15500 3850 0    50   Input ~ 0
+Text GLabel 15500 4050 0    50   Input ~ 0
 SPI_SS
 Wire Wire Line
 	15600 4450 15500 4450
@@ -938,7 +938,7 @@ Wire Notes Line
 	6950 6400 9900 6400
 Text Notes 9400 8700 0    50   ~ 0
 REGULATORS
-Text Label 15700 6850 2    50   ~ 0
+Text Label 15700 6750 2    50   ~ 0
 RX_AUDIO
 Text Label 15700 6950 2    50   ~ 0
 GND
@@ -1103,13 +1103,13 @@ Text Label 10850 1850 2    50   ~ 0
 MCU_MOD
 Text Label 9350 2550 0    50   ~ 0
 CONTROL_OUTPUT_4
-Text Label 15700 6750 2    50   ~ 0
+Text Label 15700 6850 2    50   ~ 0
 LINK_AUDIO_OUT
 Text Label 15700 6650 2    50   ~ 0
 LINK_SQL
 Text Label 11700 2250 2    50   ~ 0
 LINK_SQUELCH
-Text Label 12700 2650 0    50   ~ 0
+Text Label 12700 2550 0    50   ~ 0
 LINK_PTT_CTRL
 $Comp
 L Connector:Screw_Terminal_01x03 J1
@@ -1456,7 +1456,7 @@ F 3 "" H 1450 9200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1450 9200 1450 9400
-Text Label 650  10350 1    50   ~ 0
+Text Label 4100 10300 1    50   ~ 0
 CONTROL_OUTPUT_0
 Wire Wire Line
 	650  10450 650  10350
@@ -1722,7 +1722,7 @@ F 3 "" H 4900 9150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 9150 4900 9350
-Text Label 4100 10300 1    50   ~ 0
+Text Label 650  10350 1    50   ~ 0
 CONTROL_OUTPUT_2
 Wire Wire Line
 	4100 10400 4100 10300
@@ -4822,7 +4822,7 @@ Wire Wire Line
 	5050 7650 4900 7650
 Text Label 4900 7650 2    50   ~ 0
 TX_PWR_CTRL
-Text Label 12700 2550 0    50   ~ 0
+Text Label 12700 2650 0    50   ~ 0
 TX_PWR_CTRL
 Wire Wire Line
 	7550 7800 7550 7500
