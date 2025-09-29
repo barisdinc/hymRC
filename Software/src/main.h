@@ -14,7 +14,7 @@
 
 
 /* Pin Definition */
-#define dtmf_pinSTD    2
+#define mcp_intpin     2 // MCP23017 interrupt pin (intA only)
 #define squelch_in_pin 3 // Squelch Giris Pini D3
 #define dtmf_pinQ1     4
 #define dtmf_pinQ2     5
